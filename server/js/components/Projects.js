@@ -46,7 +46,7 @@ export default function Projects() {
 
   return (
     <div>
-      <div className="visible-lg-block" style={Object.assign({}, styles.background, styles.lg)} />
+      <div style={Object.assign({}, styles.background, styles.lg)} />
       <div className="container" style={styles.parent}>
         <div className="row" style={{height: '100%'}}>
           <div className="col-md-8 col-md-offset-2" style={styles.fullHeight}>

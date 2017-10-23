@@ -44,7 +44,7 @@ export default function About() {
 
   return (
     <div>
-    <div className="visible-lg-block" style={Object.assign({}, styles.background, styles.lg)} />
+    <div style={Object.assign({}, styles.background, styles.lg)} />
     <div className="container" style={styles.parent}>
       <div className="row" style={{marginTop: '3rem', height: '100%'}}>
         <div className="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12" style={styles.fullHeight}>
