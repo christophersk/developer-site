@@ -9,7 +9,7 @@ export default function Projects() {
       left: 0,
       height: '100%',
       width: '100%',
-      backgroundImage: 'url(\'/images/madison-bilsborough-382093.jpg\')',
+      backgroundImage: 'url(\'/images/annie-spratt-42459.jpg\')',
       backgroundSize: 'cover',
       backgroundPosition: 'center center',
       filter: 'opacity(10%) grayscale(100%)',
