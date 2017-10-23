@@ -8,7 +8,7 @@ export default function renderFullPage(html) {
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <title>Chris Skene | Web Developer</title>
         <style>
-          @import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto');
+          @import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto|Roboto+Slab');
           h1, h2, h3, h4 {
             font-family: 'Roboto', sans-serif;
           }
