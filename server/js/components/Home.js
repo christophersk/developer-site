@@ -45,9 +45,6 @@ export default function Home() {
 
   return (
     <div>
-    <div className="visible-xs-block" style={Object.assign({}, styles.background, styles.xs)} />
-    <div className="visible-sm-block" style={Object.assign({}, styles.background, styles.sm)} />
-    <div className="visible-md-block" style={Object.assign({}, styles.background, styles.md)} />
     <div className="visible-lg-block" style={Object.assign({}, styles.background, styles.lg)} />
     <div style={styles.parent}>
       <div className="row" style={styles.fullHeight}>
