@@ -27,7 +27,6 @@ export default function Projects() {
       height: '100%',
       width: '100%',
       fontSize: '1.7rem',
-      marginTop: '-6rem',
     },
     fullHeight: {
       height: '100%',
@@ -47,7 +46,7 @@ export default function Projects() {
               <Scrollchor to="#soundCrowd" className="nav-link">SoundCrowd</Scrollchor> | <Scrollchor to="#middlePlace" className="nav-link">MiddlePlace</Scrollchor> | <Scrollchor to="#forte" className="nav-link">Forte</Scrollchor>
               </p>
             </div>
-            <div style={{textAlign: 'center', fontSize: '2.5rem', position: 'relative', zIndex: 999}}>
+            <div style={{textAlign: 'center', fontSize: '2.5rem', position: 'relative', marginTop: '-50px', zIndex: 999}}>
               <Scrollchor to="#soundCrowd" className="nav-link">
                 <span className="glyphicon glyphicon-menu-down" />
               </Scrollchor>
@@ -60,7 +59,13 @@ export default function Projects() {
               <h4>SoundCrowd</h4>
               <p><a href="https://github.com/Team-Paper/soundcrowd" target="new">GitHub</a> | <a href="https://thesoundcrowd.herokuapp.com/" target="new">Website</a></p>
               <p style={{textAlign: 'center'}}><em>An in-browser digital audio workstation plus social network.</em></p>
-              <img className="img img-responsive" src="http://via.placeholder.com/320x180" />
+              <div className="row" style={{width: '100%'}}>
+                <div className="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+                    <div className="embed-responsive embed-responsive-16by9">
+                      <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/FmdvYdB9jMc" />
+                    </div>
+                </div>
+              </div>
               <p style={{textAlign: 'center', paddingTop: '1rem'}}><b>Technologies:</b> Web Audio API, Firebase, React, Redux, React-Redux, NodeJS/ExpressJS, React-Router, Postgres</p>
               <div style={{textAlign: 'center', fontSize: '2.5rem'}}>
                 <Scrollchor to="#" className="nav-link">
@@ -79,7 +84,13 @@ export default function Projects() {
               <h4>MiddePlace</h4>
               <p><a href="https://github.com/christophersk/middleplace" target="new">GitHub</a></p>
               <p style={{textAlign: 'center'}}><em>An iOS application that finds entertainment spots (restaurants, bars, etc.) near the midpoint (by travel time) of the user's current location and another user-provided location. Fullstack Academy "Stackathon" popular vote winner for "best app."</em></p>
-              <img className="img img-responsive" src="http://via.placeholder.com/320x180" />
+              <div className="row" style={{width: '100%'}}>
+                <div className="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+                    <div className="embed-responsive embed-responsive-16by9">
+                      <iframe className="embed-responsive-item" src="https://www.youtube.com/embed/Ev8J2Xo0-iw" />
+                    </div>
+                </div>
+              </div>
               <p style={{textAlign: 'center', paddingTop: '1rem'}}><b>Technologies:</b> React-Native, Google Directions API, Google Places API, Airbnb React Native Mapview</p>
               <div style={{textAlign: 'center', fontSize: '2.5rem'}}>
                 <Scrollchor to="soundCrowd" className="nav-link">
@@ -98,7 +109,13 @@ export default function Projects() {
               <h4>Forte</h4>
               <p><a href="https://github.com/musicStackers/musicStack" target="new">GitHub</a></p>
               <p style={{textAlign: 'center'}}><em>An iOS application that finds entertainment spots (restaurants, bars, etc.) near the midpoint (by travel time) of the user's current location and another user-provided location. Fullstack Academy "Stackathon" popular vote winner for "best app."</em></p>
-              <img className="img img-responsive" src="http://via.placeholder.com/320x180" />
+              <div className="row" style={{width: '100%'}}>
+                <div className="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+                  <a href="https://musicstack-forte.herokuapp.com/" target="new">
+                    <img className="img img-responsive" src="/images/forteScreenshot.png" />
+                  </a>
+                </div>
+              </div>
               <p style={{textAlign: 'center', paddingTop: '1rem'}}><b>Technologies:</b> React-Native, Google Directions API, Google Places API, Airbnb React Native Mapview</p>
               <div style={{textAlign: 'center', fontSize: '2.5rem'}}>
                 <Scrollchor to="middlePlace" className="nav-link">
