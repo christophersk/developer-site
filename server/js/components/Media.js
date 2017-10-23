@@ -9,10 +9,21 @@ export default function Media() {
       left: 0,
       height: '100%',
       width: '100%',
-      backgroundImage: 'url(\'/images/daniil-silantev-318853.jpg\')',
       backgroundSize: 'cover',
       backgroundPosition: 'center center',
       filter: 'opacity(10%) grayscale(100%)',
+    },
+    xs: {
+      backgroundImage: 'url(\'/images/xs/05ce0fef4fc14096138fd1a3b452847b.jpg\')',
+    },
+    sm: {
+      backgroundImage: 'url(\'/images/sm/05ce0fef4fc14096138fd1a3b452847b.jpg\')',
+    },
+    md: {
+      backgroundImage: 'url(\'/images/md/05ce0fef4fc14096138fd1a3b452847b.jpg\')',
+    },
+    lg: {
+      backgroundImage: 'url(\'/images/lg/05ce0fef4fc14096138fd1a3b452847b.jpg\')',
     },
     parent: {
       position: 'absolute',
@@ -35,7 +46,10 @@ export default function Media() {
 
   return (
     <div>
-      <div style={styles.background} />
+      <div className="visible-xs-block" style={Object.assign({}, styles.background, styles.xs)} />
+      <div className="visible-sm-block" style={Object.assign({}, styles.background, styles.sm)} />
+      <div className="visible-md-block" style={Object.assign({}, styles.background, styles.md)} />
+      <div className="visible-lg-block" style={Object.assign({}, styles.background, styles.lg)} />
       <div className="container" style={styles.parent}>
         <div className="row" style={{height: '100%'}}>
           <div className="col-md-8 col-md-offset-2" style={styles.fullHeight}>
